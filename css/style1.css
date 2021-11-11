@@ -1,0 +1,568 @@
+@font-face {
+    font-family: mc1;
+    src: url(../fonts/mc1.ttf);
+}
+
+@font-face {
+    font-family: mc2;
+    src: url(../fonts/mc2.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: mc2;
+    background-color: #171717; 
+    color: white;
+    background-image: url(../images/space-export.png);
+    background-size: 100%;
+
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header1 header1 header1"
+    "navbar navbar navbar"
+    "header2 header2 header2"
+    "content1 content1 content1"
+    "header3 header3 header3"
+    "favmusik favmusik favmusik" 
+    "madeby madeby madeby";
+}
+
+
+.header1 {
+    grid-area: header1;
+    font-size: 40px;
+    justify-self: center;
+    
+}
+
+.span1 {
+    margin-top: 10px;
+    background-color: rgba(23,23,23,0.6);
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar {
+    grid-area: navbar;
+    justify-self: center;
+}
+
+.navbar2 {
+    background-color: rgba(23,23,23,0.6);
+}
+
+.profilpic {
+    grid-area: profilpic;
+    justify-self: center;
+    
+    
+
+}
+
+.profilpicure {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
+
+.header2 {
+    grid-area: header2;
+    margin-top: 30px;
+    font-size: 25px;
+    justify-self: center;
+}
+
+.span2 {
+    background-color: rgba(23,23,23,0.6);
+}
+.content1 {
+    grid-area: content1;
+    font-size: 15px;
+    background-color: #fff;
+    color: black;
+    border: 0px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-self: center;
+    margin: 10px;
+}
+
+
+
+.header3 {
+    grid-area: header3;
+    font-size: 20px;
+    justify-self: center;
+    margin-top: 60px;
+}
+
+.span4 {
+    background-color: rgba(23,23,23,0.6);
+}
+
+.favmusik {
+    grid-area: favmusik;
+    margin: 10px;
+
+}
+
+.spotify {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    transform: translateZ(0px);
+    border: 0px;
+}
+
+.madeby {
+    grid-area: madeby;
+    justify-self: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.backmadeby {
+    font-size: 10px;
+    background-color: rgba(23,23,23,0.6);
+}
+
+.promax {
+    font-size: 12px;
+    background-color: rgba(23,23,23,0.6);
+    color: white;
+}
+
+
+@media screen and (min-width: 600px) {
+
+    body {
+        font-family: mc2;
+        background-color: #171717; 
+        color: white;
+        background-image: url(../images/space-export.png);
+        background-size: 100%;
+    
+    }
+    
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "header1 header1 header1"
+        "navbar navbar navbar"
+        "header2 header2 header2"
+        "content1 content1 content1"
+        "header3 header3 header3"
+        "favmusik favmusik favmusik" 
+        "madeby madeby madeby";
+    }
+    
+    
+    .header1 {
+        grid-area: header1;
+        font-size: 40px;
+        justify-self: center;
+        
+    }
+    
+    .span1 {
+        margin-top: 10px;
+        background-color: rgba(23,23,23,0.6);
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .navbar {
+        grid-area: navbar;
+        justify-self: center;
+    }
+    
+    .navbar2 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .profilpic {
+        grid-area: profilpic;
+        justify-self: center;
+        
+        
+    
+    }
+    
+    .profilpicure {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        
+    }
+    
+    .header2 {
+        grid-area: header2;
+        margin-top: 30px;
+        font-size: 25px;
+        justify-self: center;
+    }
+    
+    .span2 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    .content1 {
+        grid-area: content1;
+        font-size: 15px;
+        background-color: #fff;
+        color: black;
+        border: 0px;
+        border-radius: 12px;
+        padding-left: 10px;
+        padding-top: 10px;
+        justify-self: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    
+    
+    .header3 {
+        grid-area: header3;
+        font-size: 20px;
+        justify-self: center;
+        margin-top: 60px;
+    }
+    
+    .span4 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .favmusik {
+        grid-area: favmusik;
+        margin-left: 150px;
+        margin-right: 150px;
+    
+    }
+    
+    .spotify {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        transform: translateZ(0px);
+        border: 0px;
+    }
+    
+    .madeby {
+        grid-area: madeby;
+        justify-self: right;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+    .backmadeby {
+        font-size: 10px;
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .promax {
+        font-size: 12px;
+        background-color: rgba(23,23,23,0.6);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        font-family: mc2;
+        background-color: #171717; 
+        color: white;
+        background-image: url(../images/space-export.png);
+        background-size: 100%;
+    
+    }
+    
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "header1 header1 header1"
+        "navbar navbar navbar"
+        "header2 header2 header2"
+        "content1 content1 content1"
+        "header3 header3 header3"
+        "favmusik favmusik favmusik" 
+        "madeby madeby madeby";
+    }
+    
+    
+    .header1 {
+        grid-area: header1;
+        font-size: 40px;
+        justify-self: center;
+        
+    }
+    
+    .span1 {
+        margin-top: 10px;
+        background-color: rgba(23,23,23,0.6);
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .navbar {
+        grid-area: navbar;
+        justify-self: center;
+    }
+    
+    .navbar2 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .profilpic {
+        grid-area: profilpic;
+        justify-self: center;
+        
+        
+    
+    }
+    
+    .profilpicure {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        
+    }
+    
+    .header2 {
+        grid-area: header2;
+        margin-top: 30px;
+        font-size: 25px;
+        justify-self: center;
+    }
+    
+    .span2 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    .content1 {
+        grid-area: content1;
+        font-size: 15px;
+        background-color: #fff;
+        color: black;
+        border: 0px;
+        border-radius: 12px;
+        padding-left: 10px;
+        padding-top: 10px;
+        justify-self: center;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    
+    
+    .header3 {
+        grid-area: header3;
+        font-size: 20px;
+        justify-self: center;
+        margin-top: 60px;
+    }
+    
+    .span4 {
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .favmusik {
+        grid-area: favmusik;
+        margin-left: 300px;
+        margin-right: 300px;
+    
+    }
+    
+    .spotify {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        transform: translateZ(0px);
+        border: 0px;
+    }
+    
+    .madeby {
+        grid-area: madeby;
+        justify-self: right;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+    .backmadeby {
+        font-size: 10px;
+        background-color: rgba(23,23,23,0.6);
+    }
+    
+    .promax {
+        font-size: 12px;
+        background-color: rgba(23,23,23,0.6);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1300px){
+
+body {
+    font-family: mc2;
+    background-color: #171717; 
+    color: white;
+    background-image: url(../images/space-export.png);
+    background-size: 100%;
+
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header1 . navbar"
+    ". header2 ."
+    "profilpic content1 ."
+    ". workbutton ."
+    ". header3 ."
+    ". favmusik ." 
+    ". . madeby";
+}
+
+
+.header1 {
+    grid-area: header1;
+    font-size: 50px;
+    justify-self: left;
+    
+}
+
+.span1 {
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: rgba(23,23,23,0.6);
+    align-items: center;
+}
+
+.navbar {
+    grid-area: navbar;
+    justify-self: right;
+    margin-right: 50px;
+}
+
+.profilpic {
+    grid-area: profilpic;
+    justify-self: center;
+    
+    
+
+}
+
+.profilpicure {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    
+}
+
+.header2 {
+    grid-area: header2;
+    margin-top: 0px;
+    font-size: 25px;
+    justify-self: center;
+}
+
+.span2 {
+    background-color: rgba(23,23,23,0.6);
+}
+.content1 {
+    grid-area: content1;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    border: 0px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.header3 {
+    grid-area: header3;
+    font-size: 20px;
+    justify-self: center;
+    margin-top: 60px;
+}
+
+.span4 {
+    background-color: rgba(23,23,23,0.6);
+}
+
+.favmusik {
+    grid-area: favmusik;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.spotify {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transform: translateZ(0px);
+    border: 0px;
+}
+
+.madeby {
+    grid-area: madeby;
+    justify-self: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.backmadeby {
+    font-size: 10px;
+    background-color: rgba(23,23,23,0.6);
+    color: rgba(179, 179, 179, 0.466);
+}
+
+.promax {
+    font-size: 12px;
+    background-color: rgba(23,23,23,0.6);
+    color: white;
+}
+    
+}
