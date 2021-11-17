@@ -29,7 +29,8 @@ body {
     grid-template-rows: 1fr 1 1fr 1fr 1fr 1fr;
     grid-template-areas:
     "header1 . navbar"
-    ". . madeby";
+    ". . madeby"
+    ". header2 .";
 }
 
 
@@ -37,7 +38,13 @@ body {
     grid-area: header1;
     font-size: 50px;
     justify-self: left;
-    
+}
+
+.header2 {
+    grid-area: header2;
+    font-size: 50px;
+    justify-self: center;
+    background-color: rgba(23,23,23,0.6);
 }
 
 .span1 {
