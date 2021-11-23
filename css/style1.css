@@ -127,7 +127,7 @@ body {
     padding-left: 10px;
     padding-top: 10px;
     justify-self: center;
-    margin: 40px;
+    margin: 50px;
 }
 
 
@@ -145,7 +145,7 @@ body {
 
 .favmusik {
     grid-area: favmusik;
-    margin: 40px;
+    margin: 50px;
 
 }
 
