@@ -9,6 +9,7 @@
     <title>About me</title>
 </head>
 <body>
+    <div class="loader"><img src="./images/loader.gif" alt="loading..."></div>
     <div class="grid">
         <div class="header1" ><a class="span1" href="index.html" style="color: white; text-decoration: none;">OneOver</a></div>
         <div class="navbar">
@@ -22,6 +23,12 @@
         <div class="favmusik"><iframe class="spotify" src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A42N7xR091OL4cyWwz81SRM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
         <div class="madeby"><span class="backmadeby">Background made by </span><a class="promax" href="https://promax8.carrd.co/">PROMAX</a></div>
     </div>
+
+<script>
+    window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";});
+</script>
 
 </body>
 </html>
