@@ -51,6 +51,27 @@ body {
     }
 }
 
+.navbar2{
+    color: rgb(216, 216, 216); 
+    margin-right: 10px; 
+}
+
+.aboutme{
+    text-decoration: underline;
+}
+
+.mywork{
+    text-decoration: none;
+}
+
+.social{
+    text-decoration: none;
+}
+
+.navbar2:hover {
+    color: rgb(167, 167, 167);
+}
+
 .grid {
     margin-top: 20px;
     display: grid;

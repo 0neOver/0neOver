@@ -13,6 +13,27 @@
     padding: 0px;
 }
 
+.navbar2{
+    color: rgb(216, 216, 216); 
+    margin-right: 10px; 
+}
+
+.aboutme{
+    text-decoration: none;
+}
+
+.mywork{
+    text-decoration: underline;
+}
+
+.social{
+    text-decoration: none;
+}
+
+.navbar2:hover {
+    color: rgb(167, 167, 167);
+}
+
 .loader {
     position: fixed;
     z-index: 99;
