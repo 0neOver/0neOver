@@ -16,7 +16,7 @@
 body {
     font-family: mc2;
     background-color: #171717; 
-    color: white;
+    color: rgb(216, 216, 216);
     background-image: url(../images/space-export.png);
     background-size: 100%;
 
@@ -120,7 +120,7 @@ body {
 .content1 {
     grid-area: content1;
     font-size: 15px;
-    background-color: #fff;
+    background-color: rgb(216, 216, 216);
     color: black;
     border: 0px;
     border-radius: 12px;
@@ -174,7 +174,7 @@ body {
 .promax {
     font-size: 12px;
     background-color: rgba(23,23,23,0.6);
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
 
@@ -183,7 +183,7 @@ body {
     body {
         font-family: mc2;
         background-color: #171717; 
-        color: white;
+        color: rgb(216, 216, 216);
         background-image: url(../images/space-export.png);
         background-size: 100%;
     
@@ -258,7 +258,7 @@ body {
     .content1 {
         grid-area: content1;
         font-size: 15px;
-        background-color: #fff;
+        background-color: rgb(216, 216, 216);
         color: black;
         border: 0px;
         border-radius: 12px;
@@ -314,7 +314,7 @@ body {
     .promax {
         font-size: 12px;
         background-color: rgba(23,23,23,0.6);
-        color: white;
+        color: rgb(216, 216, 216);
     }
     
 }
@@ -324,7 +324,7 @@ body {
     body {
         font-family: mc2;
         background-color: #171717; 
-        color: white;
+        color: rgb(216, 216, 216);
         background-image: url(../images/space-export.png);
         background-size: 100%;
     
@@ -399,7 +399,7 @@ body {
     .content1 {
         grid-area: content1;
         font-size: 15px;
-        background-color: #fff;
+        background-color: rgb(216, 216, 216);
         color: black;
         border: 0px;
         border-radius: 12px;
@@ -455,7 +455,7 @@ body {
     .promax {
         font-size: 12px;
         background-color: rgba(23,23,23,0.6);
-        color: white;
+        color: rgb(216, 216, 216);
     }
     
 }
@@ -465,7 +465,7 @@ body {
 body {
     font-family: mc2;
     background-color: #171717; 
-    color: white;
+    color: rgb(216, 216, 216);
     background-image: url(../images/space-export.png);
     background-size: 100%;
 
@@ -537,7 +537,7 @@ body {
 .content1 {
     grid-area: content1;
     font-size: 20px;
-    background-color: #fff;
+    background-color: rgb(216, 216, 216);
     color: black;
     border: 0px;
     border-radius: 12px;
@@ -591,7 +591,7 @@ body {
 .promax {
     font-size: 12px;
     background-color: rgba(23,23,23,0.6);
-    color: white;
+    color: rgb(216, 216, 216);
 }
     
 }

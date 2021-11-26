@@ -94,14 +94,14 @@ body {
 }
 
 .left { 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(216, 216, 216); 
     float: left; 
     border-radius: 12px;
     transition: 0.9s;
 }
 
 .left:hover , .right:hover , .mid:hover { 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(216, 216, 216); 
     float: left; 
     transform: scale(1.05);
     transition: 0.9s;
@@ -110,13 +110,13 @@ body {
 .mid { 
     float: left; 
     margin: 0 5%; 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(216, 216, 216); 
     border-radius: 12px;
     transition: 0.9s;
 }
     
 .right { 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(216, 216, 216); 
     float: right; 
     border-radius: 12px;
     transition: 0.9s;

@@ -47,7 +47,7 @@
 body {
     font-family: mc2;
     background-color: #171717; 
-    color: white;
+    color: rgb(216, 216, 216);
     background-image: url(../images/space-export.png);
     background-size: 100%;
 
@@ -103,7 +103,7 @@ body {
 .promax {
     font-size: 12px;
     background-color: rgba(23,23,23,0.6);
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
 .header1 {
@@ -144,7 +144,7 @@ table, th, td {
 .content1 {
     grid-area: content1;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -157,7 +157,7 @@ table, th, td {
 .content2 {
     grid-area: content2;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -172,7 +172,7 @@ table, th, td {
 .content3 {
     grid-area: content3;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -186,7 +186,7 @@ table, th, td {
 .content4 {
     grid-area: content4;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -200,7 +200,7 @@ table, th, td {
 .content5 {
     grid-area: content5;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -214,7 +214,7 @@ table, th, td {
 .content6 {
     grid-area: content6;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -241,7 +241,7 @@ table {
 body {
     font-family: mc2;
     background-color: #171717; 
-    color: white;
+    color: rgb(216, 216, 216);
     background-image: url(../images/space-export.png);
     background-size: 100%;
 
@@ -297,7 +297,7 @@ body {
 .promax {
     font-size: 12px;
     background-color: rgba(23,23,23,0.6);
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
 .header1 {
@@ -334,7 +334,7 @@ table, th, td {
 .content1 {
     grid-area: content1;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -347,7 +347,7 @@ table, th, td {
 .content2 {
     grid-area: content2;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -362,7 +362,7 @@ table, th, td {
 .content3 {
     grid-area: content3;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -376,7 +376,7 @@ table, th, td {
 .content4 {
     grid-area: content4;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -390,7 +390,7 @@ table, th, td {
 .content5 {
     grid-area: content5;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -404,7 +404,7 @@ table, th, td {
 .content6 {
     grid-area: content6;
     justify-self: center;
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     border-radius: 12px;
     margin-top: 50px;
     margin-left: 50px;
@@ -434,7 +434,7 @@ table {
     body {
         font-family: mc2;
         background-color: #171717; 
-        color: white;
+        color: rgb(216, 216, 216);
         background-image: url(../images/space-export.png);
         background-size: 100%;
     
@@ -497,7 +497,7 @@ table {
     .promax {
         font-size: 12px;
         background-color: rgba(23,23,23,0.6);
-        color: white;
+        color: rgb(216, 216, 216);
     }
     
 
@@ -510,7 +510,7 @@ table {
     .content1 {
         grid-area: content1;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -521,7 +521,7 @@ table {
     .content2 {
         grid-area: content2;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -536,7 +536,7 @@ table {
     .content3 {
         grid-area: content3;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -550,7 +550,7 @@ table {
     .content4 {
         grid-area: content4;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -564,7 +564,7 @@ table {
     .content5 {
         grid-area: content5;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -578,7 +578,7 @@ table {
     .content6 {
         grid-area: content6;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 50px;
@@ -606,7 +606,7 @@ table {
     body {
         font-family: mc2;
         background-color: #171717; 
-        color: white;
+        color: rgb(216, 216, 216);
         background-image: url(../images/space-export.png);
         background-size: 100%;
     
@@ -669,7 +669,7 @@ table {
     .promax {
         font-size: 12px;
         background-color: rgba(23,23,23,0.6);
-        color: white;
+        color: rgb(216, 216, 216);
     }
     
 
@@ -683,7 +683,7 @@ table {
     .content1 {
         grid-area: content1;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -694,7 +694,7 @@ table {
     .content2 {
         grid-area: content2;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -709,7 +709,7 @@ table {
     .content3 {
         grid-area: content3;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -723,7 +723,7 @@ table {
     .content4 {
         grid-area: content4;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -737,7 +737,7 @@ table {
     .content5 {
         grid-area: content5;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -751,7 +751,7 @@ table {
     .content6 {
         grid-area: content6;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         margin-left: 100px;
@@ -772,7 +772,7 @@ table {
     body {
         font-family: mc2;
         background-color: #171717; 
-        color: white;
+        color: rgb(216, 216, 216);
         background-image: url(../images/space-export.png);
         background-size: 100%;
     
@@ -839,7 +839,7 @@ table {
     .promax {
         font-size: 12px;
         background-color: rgba(23,23,23,0.6);
-        color: white;
+        color: rgb(216, 216, 216);
     }
     
     
@@ -850,7 +850,7 @@ table {
     .content1 {
         grid-area: content1;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
@@ -878,7 +878,7 @@ table {
     .content2 {
         grid-area: content2;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
@@ -892,7 +892,7 @@ table {
     .content3 {
         grid-area: content3;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
@@ -905,7 +905,7 @@ table {
     .content4 {
         grid-area: content4;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
@@ -918,7 +918,7 @@ table {
     .content5 {
         grid-area: content5;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
@@ -931,7 +931,7 @@ table {
     .content6 {
         grid-area: content6;
         justify-self: center;
-        background-color: white;
+        background-color: rgb(216, 216, 216);
         border-radius: 12px;
         margin-top: 50px;
         width: 50%;
