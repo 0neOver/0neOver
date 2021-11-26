@@ -119,7 +119,6 @@ body {
     float: left; 
     border-radius: 12px;
     transition: 0.9s;
-    
 }
 
 .left:hover , .right:hover , .mid:hover { 
@@ -136,7 +135,6 @@ body {
     background-color: rgb(216, 216, 216); 
     border-radius: 12px;
     transition: 0.9s;
-    
 }
     
 .right { 
@@ -144,7 +142,6 @@ body {
     float: right; 
     border-radius: 12px;
     transition: 0.9s;
-    
 }
 
 .logo1 {
